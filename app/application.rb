@@ -44,7 +44,7 @@ class Application
       @@cart << item_to_add
       return "Added #{item_to_add} to your cart"
     else
-      return "Sorry, we don't have that item"
+      return "We don't have that item"
     end
   end
 end
