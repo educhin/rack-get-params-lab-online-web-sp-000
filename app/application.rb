@@ -20,7 +20,7 @@ class Application
         end
       end
     elsif req.path.match(/add/)
-      item_to_add = req.params["q"]
+      item_to_add = req.params["item"]
       @@cart << item_to_add
       resp.write handle_add(item_to_add)
     elsif req.path.match(/search/)
