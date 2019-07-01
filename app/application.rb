@@ -50,6 +50,6 @@ class Application
   end
 
 
-  
+
   resp.write "Added #{item_to_add} to your cart"
 end
