@@ -48,8 +48,4 @@ class Application
       return "Sorry, we don't have that item"
     end
   end
-
-
-
-  resp.write "Added #{item_to_add} to your cart"
 end
